@@ -1,0 +1,52 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\JungSik\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add nodemon
+
+PATH: 
+  C:\Users\JungSik\bin;C:\Program Files (x86)\Git\mingw32\bin;C:\Program Files (x86)\Git\usr\local\bin;C:\Program Files (x86)\Git\usr\bin;C:\Program Files (x86)\Git\usr\bin;C:\Program Files (x86)\Git\mingw32\bin;C:\Program Files (x86)\Git\usr\bin;C:\Users\JungSik\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Bandizip;C:\Program Files (x86)\dotnet;C:\Program Files\nodejs;C:\Program Files (x86)\Git\cmd;C:\Users\JungSik\AppData\Local\Microsoft\WindowsApps;C:\Users\JungSik\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\JungSik\AppData\Roaming\npm;C:\Program Files (x86)\Git\usr\bin\vendor_perl;C:\Program Files (x86)\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\JungSik\vscode\lol-history\node_modules\utf-8-validate\prebuilds\win32-x64\node.napi.node'
+
+npm manifest: 
+  {
+    "scripts": {
+      "start": "snowpack dev",
+      "build": "snowpack build",
+      "dev": "nodemon ./gql-server/index.jsx",
+      "test": "web-test-runner \"src/**/*.test.jsx\"",
+      "format": "prettier --write \"src/**/*.{js,jsx}\"",
+      "lint": "prettier --check \"src/**/*.{js,jsx}\""
+    },
+    "dependencies": {
+      "@snowpack/plugin-typescript": "^1.2.1",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "typescript": "^5.3.3",
+      "yarn": "^1.22.21"
+    },
+    "devDependencies": {
+      "@snowpack/plugin-dotenv": "^2.1.0",
+      "@snowpack/plugin-react-refresh": "^2.5.0",
+      "@snowpack/web-test-runner-plugin": "^0.2.2",
+      "@testing-library/react": "^11.2.6",
+      "@web/test-runner": "^0.13.3",
+      "chai": "^4.3.4",
+      "prettier": "^2.2.1",
+      "snowpack": "^3.3.7"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
