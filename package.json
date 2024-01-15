@@ -8,7 +8,9 @@
     "lint": "prettier --check \"src/**/*.{js,jsx}\""
   },
   "dependencies": {
+    "@apollo/client": "^3.8.9",
     "@snowpack/plugin-typescript": "^1.2.1",
+    "graphql": "^16.8.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "typescript": "^5.3.3",
